@@ -5,20 +5,7 @@
 Copyright (c) 2025 [Soumit Santra]
 All rights reserved.
 
-License: MIT License
-========================================================================
-The best features of this scripts:
-- Cryptographically secure generation using secrets module
-- AES-256-GCM authenticated encryption for storage
-- TOTP/2FA code generation
-- Comprehensive password strength analysis
-- Interactive mode with full CLI experience
-- Clipboard integration with auto-clear
-- Diceware passphrase generation
-- ENHANCED: Password history tracking with deletion capabilities
-- Detailed security metrics and crack time estimates
-- CONFIGURABLE SETTINGS via command line
-
+===================================================================
 Author: [Soumit Santra]
 Version: 1.0
 Created: 2025
@@ -1644,3 +1631,4 @@ if __name__ == "__main__":
         logger.critical(f"Critical error: {e}")
         print(f"💥 Critical error occurred. Check password_generator.log for details.")
         sys.exit(1)
+
