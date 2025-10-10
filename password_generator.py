@@ -1,5 +1,5 @@
 """
- Password Generator - Enhanced with Configurable Settings & History Management
+Password Generator
 ========================================================================
 
 Copyright (c) 2025 [Soumit Santra]
@@ -1631,4 +1631,5 @@ if __name__ == "__main__":
         logger.critical(f"Critical error: {e}")
         print(f"💥 Critical error occurred. Check password_generator.log for details.")
         sys.exit(1)
+
 
