@@ -7,7 +7,7 @@
 ![Security](https://img.shields.io/badge/Security-Cryptographically%20Secure-green)
 
 **Created by [Soumit Santra] — Advanced Security Tools**  
-© 2025 Soumit Santra. All rights reserved.
+© 2026 Soumit Santra. All rights reserved.
 
 ---
 
