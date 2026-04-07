@@ -1,0 +1,6 @@
+colorama
+pyperclip
+pyotp
+zxcvbn
+cryptography
+requests
