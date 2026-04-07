@@ -69,14 +69,23 @@ A comprehensive, cryptographically secure password generator with advanced featu
 
 ## 🛠️ Requirements
 
-- Python **3.6+**
-- The script will auto-install if missing:
-  - `colorama` (colored output)
-  - `pyperclip` (clipboard operations)
-  - `pyotp` (TOTP generation)
-  - `zxcvbn` (password strength analysis)
-  - `cryptography` (encryption)
-  - `requests` (wordlist download)
+- Python **3.7+**
+- pip (Python package manager)
+
+### 📦 Dependencies (`requirements.txt`)
+
+```
+colorama
+pyperclip
+pyotp
+zxcvbn
+cryptography
+requests
+```
+
+> **Note:** The script also auto-installs and auto-updates all dependencies on first run — no manual setup needed if you prefer that.
+
+---
 
 ---
 
