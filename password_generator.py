@@ -30,9 +30,7 @@ import platform
 
 # Copyright and version information
 __author__ = "[Soumit Santra]"
-__version__ = "1.0"
-__copyright__ = "Copyright (c) 2025 [Soumit Santra]"
-__license__ = "MIT"
+__version__ = "2.0"
 
 # Initialize logging
 logging.basicConfig(
@@ -172,10 +170,7 @@ def show_copyright():
     print(f"\n{colorama.Fore.CYAN}📄 Copyright Information{colorama.Style.RESET_ALL}")
     print("="*60)
     print(f"Password Generator v{__version__}")
-    print(f"{__copyright__}")
     print(f"Author: {__author__}")
-    print(f"Email: {__email__}")
-    print(f"License: {__license__}")
     print("\nThis software is provided under the MIT License.")
     print("See the source code header for full license text.")
     print("="*60)
@@ -1241,9 +1236,9 @@ def main():
         description=f"Password Generator with Configurable Settings & History Management v{__version__}",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=f"""
-{__copyright__}
+
 Author: {__author__}
-License: {__license__}
+
 
 Examples:
   %(prog)s                           # Interactive mode
@@ -1619,7 +1614,7 @@ if __name__ == "__main__":
     print("║  ⚙️  Configurable Settings   | 💾 Persistent Config       ║")
     print("║  🗑️  History Management      | 📚 Advanced Filtering      ║")
     print("║                                                            ║")
-    print(f"║  {__copyright__:^56} ║")
+    print(f"║  {__author__:^56} ║")
     print(f"║  Version {__version__:^49} ║")
     print("╚══════════════════════════════════════════════════════════╝")
     print(f"{colorama.Style.RESET_ALL}")
