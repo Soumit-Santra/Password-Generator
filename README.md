@@ -439,4 +439,4 @@ For questions, suggestions, or collaboration opportunities.
 
 ---
 
-*Remember: Strong passwords are your first line of defense. Use this tool to create unique, secure passwords for all your accounts.*
+*Strong passwords are your first line of defense. Use this tool to create unique, secure passwords for all your accounts.*
